@@ -9,14 +9,14 @@
 		<!-- google fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,300italic,300,700%7CPlayfair+Display:400,700italic%7CRoboto:300%7CMontserrat:400,700%7COpen+Sans:400,300%7CLibre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
 		<!-- Bootstrap -->
-		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-		<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
-		<link href="assets/css/font-awesome.min.css" rel="stylesheet">
-		<link href="assets/revolution-slider/css/settings.css" rel="stylesheet">
-		<link href="assets/css/global.css" rel="stylesheet">
-		<link href="assets/css/style.css" rel="stylesheet">
-		<link href="assets/css/responsive.css" rel="stylesheet">
-		<link href="assets/css/skin.css" rel="stylesheet">
+		<link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
+		<link href="<?php bloginfo('template_url'); ?>/css/bootstrap-theme.css" rel="stylesheet">
+		<link href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css" rel="stylesheet">
+		<link href="<?php bloginfo('template_url'); ?>/css/settings.css" rel="stylesheet">
+		<link href="<?php bloginfo('template_url'); ?>/css/global.css" rel="stylesheet">
+		<link href="<?php bloginfo('template_url'); ?>/css/style.css" rel="stylesheet">
+		<link href="<?php bloginfo('template_url'); ?>/css/responsive.css" rel="stylesheet">
+		<link href="<?php bloginfo('template_url'); ?>/css/skin.css" rel="stylesheet">
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -33,7 +33,7 @@
 			<header id="header">
 				<div class="container">
 					<div class="row primary-header">
-						<a href="index.html" class="col-xs-12 col-sm-2 brand" title="Welcome to Charity"><img src="assets/img/logo.png" alt="Charity"></a>
+						<a href="index.html" class="col-xs-12 col-sm-2 brand" title="Welcome to Charity"><img src="<?php bloginfo( 'template_directory' ); ?>/images/logo.png" alt="Charity"></a>
 						<div class="social-links col-xs-12 col-sm-10">
 							<a href="volunteer.html" class="btn btn-default btn-volunteer">Become volunteer</a>
 							<ul class="social-icons hidden-xs">
@@ -224,7 +224,7 @@
 							<!-- SLIDE  -->
 							<li data-transition="random" data-slotamount="7" data-masterspeed="500" class="slide-1" >
 								<!-- MAIN IMAGE -->
-								<img src="assets/img/slide-banner-01.jpg" alt="banner" data-bgfit="cover" data-bgposition="center 36%" data-bgrepeat="no-repeat">
+								<img src="<?php bloginfo( 'template_directory' ); ?>/images/slide-banner-01.jpg" alt="banner" data-bgfit="cover" data-bgposition="center 36%" data-bgrepeat="no-repeat">
 
 								<div
 								data-endspeed="500"
@@ -284,7 +284,7 @@
 								<!-- SLIDE  -->
 							<li data-transition="random" data-slotamount="7" data-masterspeed="500" class="slide-2" >
 								<!-- MAIN IMAGE -->
-								<img src="assets/img/slide-banner-02.jpg" alt="banner" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+								<img src="<?php bloginfo( 'template_directory' ); ?>/images/slide-banner-02.jpg" alt="banner" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
 								<div
 								data-endspeed="500"
@@ -333,7 +333,7 @@
 							<!-- SLIDE  -->
 							<li data-transition="random" data-slotamount="7" data-masterspeed="500" class="slide-3">
 								<!-- MAIN IMAGE -->
-								<img src="assets/img/slide-banner-03.jpg" alt="banner" data-bgfit="cover" data-bgposition="center 36%" data-bgrepeat="no-repeat">
+								<img src="<?php bloginfo( 'template_directory' ); ?>/images/slide-banner-03.jpg" alt="banner" data-bgfit="cover" data-bgposition="center 36%" data-bgrepeat="no-repeat">
 
 								<div
 								data-endspeed="500"
@@ -408,7 +408,7 @@
 										<h3 class="h6">Help african children to have homes</h3>
 										<a href="#" class="img-thumb">
 											<figure>
-											<img src="assets/img/img-slide-01.jpg" alt="">
+											<img src="<?php bloginfo( 'template_directory' ); ?>/images/img-slide-01.jpg" alt="">
 											</figure>
 											</a>
 										<div class="progress">
@@ -428,7 +428,7 @@
 										<h3 class="h6">Help girls to get Education</h3>
 										<a href="#" class="img-thumb">
 											<figure>
-											<img src="assets/img/img-slide-02.jpg" alt="">
+											<img src="<?php bloginfo( 'template_directory' ); ?>/images/img-slide-02.jpg" alt="">
 											</figure>
 											</a>
 										<div class="progress">
@@ -448,7 +448,7 @@
 										<h3 class="h6">Help us to send Vegetables to Africa</h3>
 										<a href="#" class="img-thumb">
 											<figure>
-											<img src="assets/img/img-slide-03.jpg" alt="">
+											<img src="<?php bloginfo( 'template_directory' ); ?>/images/img-slide-03.jpg" alt="">
 											</figure>
 											</a>
 										<div class="progress">
@@ -468,7 +468,7 @@
 										<h3 class="h6">Help african children to have homes</h3>
 										<a href="#" class="img-thumb">
 											<figure>
-											<img src="assets/img/img-slide-01.jpg" alt="">
+											<img src="<?php bloginfo( 'template_directory' ); ?>/images/img-slide-01.jpg" alt="">
 											</figure>
 											</a>
 										<div class="progress">
@@ -488,7 +488,7 @@
 										<h3 class="h6">Help girls to get Education</h3>
 										<a href="#" class="img-thumb">
 											<figure>
-											<img src="assets/img/img-slide-02.jpg" alt="">
+											<img src="<?php bloginfo( 'template_directory' ); ?>/images/img-slide-02.jpg" alt="">
 											</figure>
 											</a>
 										<div class="progress">
@@ -508,7 +508,7 @@
 										<h3 class="h6">Help us to send Vegetables to Africa</h3>
 										<a href="#" class="img-thumb">
 											<figure>
-											<img src="assets/img/img-slide-03.jpg" alt="">
+											<img src="<?php bloginfo( 'template_directory' ); ?>/images/img-slide-03.jpg" alt="">
 											</figure>
 											</a>
 										<div class="progress">
@@ -528,7 +528,7 @@
 										<h3 class="h6">Help african children to have homes</h3>
 										<a href="#" class="img-thumb">
 											<figure>
-											<img src="assets/img/img-slide-01.jpg" alt="">
+											<img src="<?php bloginfo( 'template_directory' ); ?>/images/img-slide-01.jpg" alt="">
 											</figure>
 											</a>
 										<div class="progress">
@@ -548,7 +548,7 @@
 										<h3 class="h6">Help girls to get Education</h3>
 										<a href="#" class="img-thumb">
 											<figure>
-											<img src="assets/img/img-slide-02.jpg" alt="">
+											<img src="<?php bloginfo( 'template_directory' ); ?>/images/img-slide-02.jpg" alt="">
 											</figure>
 											</a>
 										<div class="progress">
@@ -568,7 +568,7 @@
 										<h3 class="h6">Help us to send Vegetables to Africa</h3>
 										<a href="#" class="img-thumb">
 											<figure>
-											<img src="assets/img/img-slide-03.jpg" alt="">
+											<img src="<?php bloginfo( 'template_directory' ); ?>/images/img-slide-03.jpg" alt="">
 											</figure>
 											</a>
 										<div class="progress">
@@ -634,7 +634,7 @@
 									</div>
 									<div class="col-xs-12 col-sm-6 col-lg-6 col-lg-offset-1">
 										<div class="embed-responsive embed-responsive-16by9">
-											<img  src="assets/img/video-frame.jpg" alt="Click to play" data-video="http://www.youtube.com/embed/zP_D_YKnwi0?autoplay=1"/>
+											<img  src="<?php bloginfo( 'template_directory' ); ?>/images/video-frame.jpg" alt="Click to play" data-video="http://www.youtube.com/embed/zP_D_YKnwi0?autoplay=1"/>
 											</div>
 									</div>
 								</div>
@@ -674,7 +674,7 @@
 									<div class="items zoom col-xs-12 col-sm-4">
 										<a href="#" class="img-thumb">
 											<figure>
-											<img src="assets/img/img-slide-04.jpg" alt="">
+											<img src="<?php bloginfo( 'template_directory' ); ?>/images/img-slide-04.jpg" alt="">
 											</figure>
 											</a>
 										<h3>News Heading Title</h3>
@@ -687,7 +687,7 @@
 									<div class="items zoom col-xs-12 col-sm-4">
 										<a href="#" class="img-thumb">
 											<figure>
-											<img src="assets/img/img-slide-05.jpg" alt="">
+											<img src="<?php bloginfo( 'template_directory' ); ?>/images/img-slide-05.jpg" alt="">
 											</figure>
 											</a>
 										<h3>Nunc sit amet justo quis urna hendrerit </h3>
@@ -700,7 +700,7 @@
 									<div class="items zoom col-xs-12 col-sm-4">
 										<a href="#" class="img-thumb">
 											<figure>
-											<img src="assets/img/img-slide-06.jpg" alt="">
+											<img src="<?php bloginfo( 'template_directory' ); ?>/images/img-slide-06.jpg" alt="">
 											</figure>
 											</a>
 										<h3>News Heading Title</h3>
@@ -784,7 +784,7 @@
 					<div class="row">
 						<div class="col-xs-12 col-sm-4">
 							<div class="footer-logo">
-								<a href="index.html" title="Welcome to Charity"><img src="assets/img/logo.png" alt="Charity"></a>
+								<a href="index.html" title="Welcome to Charity"><img src="<?php bloginfo( 'template_directory' ); ?>/images/logo.png" alt="Charity"></a>
 							</div>
 							<p>
 								There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
@@ -1071,18 +1071,18 @@
 		</div>
 		<!-- donation form popup -->
 	
-		<script src="assets/js/jquery.min.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
 		<!-- Switcher Style Js -->
-		<script src="assets/js/style-switcher/assets/js/style.switcher.js"></script>
-		<script src="assets/js/jquery.cookie.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/style.switcher.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/jquery.cookie.js"></script>
 		<!-- Switcher Style End Js -->
-		<script src="assets/js/bootstrap.min.js"></script>
-		<script src="assets/js/jquery.easing.min.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/jquery.easing.min.js"></script>
 		<!--Main Slider Js-->
-		<script src="assets/revolution-slider/js/jquery.themepunch.plugins.min.js"></script>
-		<script src="assets/revolution-slider/js/jquery.themepunch.revolution.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/jquery.themepunch.plugins.min.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/jquery.themepunch.revolution.js"></script>
 		<!--Main Slider End Js-->
-		<script src="assets/js/jquery.flexslider.js"></script>
-		<script src="assets/js/site.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/site.js"></script>
 	</body>
 </html>
